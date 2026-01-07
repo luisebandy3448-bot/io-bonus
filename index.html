@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IO 보너스 페이지</title>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+    .bonus {
+      color: #E53E3E;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #00C300;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .note {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 IO에 오신 것을 환영합니다!</h1>
+    <p class="bonus">가입 시 +500P 보너스 지급!<br>LINE으로 연결 중입니다...</p>
+    <a href="https://line.me/R/ti/p/@yourid" class="btn">💬 수동으로 LINE 열기</a>
+    <p class="note">
+      ※ 개인정보는 암호화되어 안전하게 처리됩니다.<br>
+      (3초 후 자동으로 LINE 앱이 열립니다)
+    </p>
+  </div>
+
+  <!-- 自动跳转脚本 -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://line.me/R/ti/p/@yourid";
+    }, 3000);
+  </script>
+</body>
+</html>
