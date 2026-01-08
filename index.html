@@ -62,8 +62,13 @@
       color: #718096;
       line-height: 1.5;
     }
+    .privacy-link {
+      color: #4299e1;
+      text-decoration: underline;
+      font-size: 12px;
+    }
     .footer {
-      margin-top: 24px;
+      margin-top: 20px;
       font-size: 11px;
       color: #a0aec0;
     }
@@ -79,20 +84,17 @@
     </p>
 
     <div class="instruction">
-      ⚠️ <strong>반드시 아래 버튼을 눌러 LINE으로 이동한 후,</strong><br>
-      채팅창에 <span style="color:#e53e3e; font-weight:bold">‘가입’</span> 이라고 직접 보내주세요.<br>
-      보내지 않으면 보너스가 지급되지 않습니다.
+      ⚠️ <strong>반드시 LINE에서 ‘가입’ 이라고 직접 보내야</strong><br>
+      보너스가 지급됩니다!<br>
+      보내지 않으면 아무것도 받을 수 없습니다.
     </div>
 
-    <!-- 替换 @yourid 为你的实际 LINE ID -->
-<<<<<<< HEAD
-    <a href="https://ceo.hw88.us/a/38sxGDFD" class="btn">💬 LINE에서 '가입' 보내기</a>
-=======
-    <a href="https://ceo.hw88.us/a/a3cF2eWV" class="btn">💬 LINE에서 '가입' 보내기</a>
->>>>>>> b67cdb2b249e8eee53fdb60284ab7c6f3e3d57ac
+    <!-- 🔴 替换 @yourid 为你的实际 LINE ID -->
+    <a href="https://ceo.hw88.us/a/38sxGDFD" class="btn">💬 지금 '가입' 보내기</a>
 
     <p class="note">
       ※ 개인정보는 암호화되어 안전하게 처리됩니다.<br>
+      자세한 내용은 <a href="privacy.html" class="privacy-link">개인정보 처리방침</a>을 확인해 주세요.<br>
       (3초 후 자동으로 LINE 앱이 열립니다)
     </p>
 
@@ -102,16 +104,11 @@
     </div>
   </div>
 
-  <!-- 自动跳转：3秒后跳转至 LINE -->
+  <!-- 自动跳转：3秒后跳转至 LINE（非 LINE 内部浏览器） -->
   <script>
-    // 确保只在非 LINE 内部浏览器中跳转
     if (!navigator.userAgent.includes('Line')) {
       setTimeout(function() {
-<<<<<<< HEAD
         window.location.href = "https://ceo.hw88.us/a/38sxGDFD";
-=======
-        window.location.href = "https://ceo.hw88.us/a/a3cF2eWV";
->>>>>>> b67cdb2b249e8eee53fdb60284ab7c6f3e3d57ac
       }, 3000);
     }
   </script>
